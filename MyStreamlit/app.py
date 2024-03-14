@@ -12,8 +12,8 @@ from streamlit_pandas_profiling import st_profile_report
 from pycaret.classification import setup, compare_models, pull, save_model
 st.set_page_config(layout="wide", page_title="MyStreamlit", page_icon="🧊")
 
-yagpt_folder_id = "b1gvh5i9c7bk2s20uvpu"
-yagpt_api_key = "AQVNz19Pq3E0NXWOkxoVK4NiowvmqOjfl3NGZzos"
+yagpt_folder_id = "b1gjs5elmfq4r16kq40o"
+yagpt_api_key = "AQVNz5PZJbpe1UBp0BGFOHozZioqCnJ14X16-LTe"
 def yagpt_get_response(question):
     prompt = {
         "modelUri": f"gpt://{yagpt_folder_id}/yandexgpt-lite",
